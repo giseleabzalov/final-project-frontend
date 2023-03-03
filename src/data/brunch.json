@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mimosa",
+    "container": "flute",
+    "ingredients": "champagne, orange juice",
+    "instructions": "pour champagne in 2/3 of the flute, add a splash of orange juice",
+    "image": "url1"
+  },
+  {
+    "name": "Kir Royal",
+    "container": "flute",
+    "ingredients": "champagne, chambord",
+    "instructions": "pour champagne in 2/3 of the flute, add a splash of chambord",
+    "image": "url2"
+  }
+]

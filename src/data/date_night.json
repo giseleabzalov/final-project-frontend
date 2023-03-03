@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Sunset in Miami",
+    "container": "martini",
+    "ingredients": "lemon bacardi, pineapple juice, grenadine",
+    "instructions": "fill a glass half way with bacardi, add 1/3 of pineapple juice, add a splash of grenadine to the bottom",
+    "image": "url1"
+  },
+  {
+    "name": "Cappuccino Martini",
+    "container": "martini",
+    "ingredients": "chocolate vodka or vodka and godiva, kahlua, espresso, baileys",
+    "instructions": "in a shaker add a splash of each ingredient, shake well, garnish with shaved chocolate or espresso beans or both (optional",
+    "image": "url2"
+  }
+]

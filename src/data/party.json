@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Peach Sangria",
+    "container": "pitcher",
+    "ingredients": "white wine, peach pure and brandy or peach schnapps, orange juice or triple sec, seltzer or sprite, peach, orange, apple, green grapes",
+    "instructions": "add ingredients in the pitcher depending on the strength or sweetness of your liking",
+    "image": "url1"
+  },
+  {
+    "name": "Strawberry Mojito",
+    "container": "pitcher",
+    "ingredients": "lemon rum, triple sec, lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
+    "instructions": "mash mint, lime wedges, strawberries and sugar if using seltzer, add 1 oz of lime or lemon juice, rum and top off with soda",
+    "image": "url2"
+  }
+]
