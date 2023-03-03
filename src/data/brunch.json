@@ -1,5 +1,6 @@
 [
   {
+    "occasion": "Brunch",
     "name": "Mimosa",
     "container": "flute",
     "ingredients": "champagne, orange juice",
@@ -7,6 +8,7 @@
     "image": "url1"
   },
   {
+    "occasion": "Brunch",
     "name": "Kir Royal",
     "container": "flute",
     "ingredients": "champagne, chambord",

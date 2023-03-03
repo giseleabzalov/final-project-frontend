@@ -1,5 +1,6 @@
 [
   {
+    "occasion": "Party",
     "name": "Peach Sangria",
     "container": "pitcher",
     "ingredients": "white wine, peach pure and brandy or peach schnapps, orange juice or triple sec, seltzer or sprite, peach, orange, apple, green grapes",
@@ -7,6 +8,7 @@
     "image": "url1"
   },
   {
+    "occasion": "Party",
     "name": "Strawberry Mojito",
     "container": "pitcher",
     "ingredients": "lemon rum, triple sec, lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",

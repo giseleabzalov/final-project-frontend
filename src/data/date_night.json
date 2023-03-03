@@ -1,5 +1,6 @@
 [
   {
+    "occasion": "Date Night",
     "name": "Sunset in Miami",
     "container": "martini",
     "ingredients": "lemon bacardi, pineapple juice, grenadine",
@@ -7,6 +8,7 @@
     "image": "url1"
   },
   {
+    "occasion": "Date Night",
     "name": "Cappuccino Martini",
     "container": "martini",
     "ingredients": "chocolate vodka or vodka and godiva, kahlua, espresso, baileys",

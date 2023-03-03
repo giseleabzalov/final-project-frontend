@@ -1,0 +1,66 @@
+[
+  {
+    "occasion": "Party",
+    "name": "Peach Sangria",
+    "container": "pitcher",
+    "ingredients": "white wine, peach pure and brandy or peach schnapps, orange juice or triple sec, seltzer or sprite, peach, orange, apple, green grapes",
+    "instructions": "add ingredients in the pitcher depending on the strength or sweetness of your liking",
+    "image": "url1"
+  },
+  {
+    "occasion": "Party",
+    "name": "Strawberry Mojito",
+    "container": "pitcher",
+    "ingredients": "lemon rum, triple sec, lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
+    "instructions": "mash mint, lime wedges, strawberries and sugar if using seltzer, add 1 oz of lime or lemon juice, rum and top off with soda",
+    "image": "url2"
+  },
+  {
+    "occasion": "Non alcohol",
+    "name": "Peach Sangria",
+    "container": "pitcher",
+    "ingredients": "peach pure, orange juice, pineapple juice, seltzer, peach, orange, apple, green grapes",
+    "instructions": "add ingredients in the pitcher depending on the sweetness of your liking",
+    "image": "url1"
+  },
+  {
+    "occasion": "Non alcohol",
+    "name": "Strawberry Mojito",
+    "container": "pitcher",
+    "ingredients": "lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
+    "instructions": "mash mint, lime wedges, strawberries and sugar if using seltzer, add 1 oz of lime or lemon juice, and top off with soda",
+    "image": "url2"
+  },
+  {
+    "occasion": "Date Night",
+    "name": "Sunset in Miami",
+    "container": "martini",
+    "ingredients": "lemon bacardi, pineapple juice, grenadine",
+    "instructions": "fill a glass half way with bacardi, add 1/3 of pineapple juice, add a splash of grenadine to the bottom",
+    "image": "url1"
+  },
+  {
+    "occasion": "Date Night",
+    "name": "Cappuccino Martini",
+    "container": "martini",
+    "ingredients": "chocolate vodka or vodka and godiva, kahlua, espresso, baileys",
+    "instructions": "in a shaker add a splash of each ingredient, shake well, garnish with shaved chocolate or espresso beans or both (optional",
+    "image": "url2"
+  },
+  {
+    "occasion": "Brunch",
+    "name": "Mimosa",
+    "container": "flute",
+    "ingredients": "champagne, orange juice",
+    "instructions": "pour champagne in 2/3 of the flute, add a splash of orange juice",
+    "image": "url1"
+  },
+  {
+    "occasion": "Brunch",
+    "name": "Kir Royal",
+    "container": "flute",
+    "ingredients": "champagne, chambord",
+    "instructions": "pour champagne in 2/3 of the flute, add a splash of chambord",
+    "image": "url2"
+  }
+]
