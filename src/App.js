@@ -6,14 +6,15 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route
-          path="/occasion"
-          element={<OccasionList occasion="Occasion" />}
-        />
-      </Routes>
-    </BrowserRouter>
+    <OccasionList />
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route
+    //       path="/occasion"
+    //       element={<OccasionList occasion="Occasion" />}
+    //     />
+    //   </Routes>
+    // </BrowserRouter>
     // <main>
     //   <List />
     // </main>

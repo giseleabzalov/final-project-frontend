@@ -13,10 +13,10 @@
     "container": "pitcher",
     "ingredients": "lemon rum, triple sec, lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
     "instructions": "mash mint, lime wedges, strawberries and sugar if using seltzer, add 1 oz of lime or lemon juice, rum and top off with soda",
-    "image": "url2"
+    "image": "./assets/mimosa.jpeg "
   },
   {
-    "occasion": "Non alcohol",
+    "occasion": "Non-alcohol",
     "name": "Peach Sangria",
     "container": "pitcher",
     "ingredients": "peach pure, orange juice, pineapple juice, seltzer, peach, orange, apple, green grapes",
@@ -24,7 +24,7 @@
     "image": "url1"
   },
   {
-    "occasion": "Non alcohol",
+    "occasion": "Non-alcohol",
     "name": "Strawberry Mojito",
     "container": "pitcher",
     "ingredients": "lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
