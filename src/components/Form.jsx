@@ -3,23 +3,26 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 export default function AddCocktail() {
-  const [category, setCategory] = useState("");
   const [name, setName] = useState("");
   const [container, setContainer] = useState("");
   const [ingredients, setIngredients] = useState("");
   const [instructions, setInstructions] = useState("");
   const [image, setImage] = useState();
-  const [occasion, setOccasion] = useState();
+  const [occasion, setOccasion] = useState("All_Cocktails");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`http://127.0.0.1:5002/collection/${occasion}`, {
-      method: "PATCH",
+
+    console.log({ e });
+
+    fetch(`https://cheers-api-ga.web.app/collection/`, {
+      // fetch(`http://127.0.0.1:5002/collection/`, {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        category,
+        occasion,
         name,
         container,
         ingredients,
@@ -28,15 +31,19 @@ export default function AddCocktail() {
       }),
     })
       .then((res) => res.json())
-      .then()
+      .then(setOccasion)
       .catch(alert);
   };
 
   return (
     <Form onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="category">
-        <Form.Label>Category</Form.Label>
-        <Form.Select aria-label="">
+        <Form.Label>Occasion</Form.Label>
+        <Form.Select
+          aria-label=""
+          value={occasion}
+          onChange={(e) => setOccasion(e.target.value)}
+        >
           <option>Choose Category</option>
           <option value="brunch">Brunch</option>
           <option value="date_night">Date Night</option>

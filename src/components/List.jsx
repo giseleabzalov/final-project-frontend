@@ -12,8 +12,8 @@ export default function List() {
 
   useEffect(() => {
     if (occasion !== "form") {
-      // fetch(`https://cheers-api-ga.web.app/collection/${occasion}`)
-      fetch(`http://127.0.0.1:5002/collection/${occasion}`)
+      fetch(`https://cheers-api-ga.web.app/collection/${occasion}`)
+        // fetch(`http://127.0.0.1:5002/collection/${occasion}`)
         .then((res) => res.json())
         .then(setData)
         .catch(alert);
