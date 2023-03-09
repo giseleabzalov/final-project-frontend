@@ -1,0 +1,37 @@
+.nav-bar {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center
+}
+
+body {
+    background-image: url("../components/background_images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navigation-buttons {
+    padding: 5px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 5px;
+}
+
+.button-style button {
+    background: blue;
+    border-radius: 10px;
+    margin: 0 4px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

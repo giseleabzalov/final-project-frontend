@@ -5,6 +5,16 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import ListCard from "./ListCard";
 import AddCocktail from "./Form";
+import Header from "./Header";
+import "../styles/list.css";
+
+// const backgrounds = {
+//   date_night: "black",
+//   party: "blue",
+//   brunch: "orange",
+//   mocktails: "green",
+//   form: "pink",
+// };
 
 export default function List() {
   const [data, setData] = useState();
@@ -24,28 +34,31 @@ export default function List() {
   // console.log(!data);
   return (
     <>
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="">Cheers</Navbar.Brand>
+      <Navbar className="nav-bar">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav justify variant="tabs" className="me-auto">
-            <button onClick={() => setOccasion("date_night")}>
-              Date Night
-            </button>
-            <button onClick={() => setOccasion("party")}>Party</button>
-            <button onClick={() => setOccasion("brunch")}>Brunch</button>
-            <button onClick={() => setOccasion("mocktails")}>Mocktails</button>
-            <button onClick={() => setOccasion("form")}>Add Cocktail</button>
+          <Nav className="navigation-buttons">
+            <div className="button-style">
+              <button onClick={() => setOccasion("date_night")}>
+                Date Night
+              </button>
+              <button onClick={() => setOccasion("party")}>Party</button>
+              <button onClick={() => setOccasion("brunch")}>Brunch</button>
+              <button onClick={() => setOccasion("mocktails")}>
+                Mocktails
+              </button>
+              <button onClick={() => setOccasion("form")}>Add Cocktail</button>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
-      <section className="occasion-container">
+      <section>
         {occasion === "form" ? (
           <AddCocktail />
         ) : (
-          <Container>
-            <Row>
+          <Container fluid className="background">
+            <Row className="card-container">
               {!data ? (
                 <h2>Loading...</h2>
               ) : (

@@ -1,7 +1,15 @@
-export default function Header () {
-    return (
-        <header>
-            <h1>Cheers!</h1>
-        </header>
-    )
+import { Row } from "react-bootstrap";
+
+import "../styles/header.css";
+
+export default function Header() {
+  return (
+    <header className="header">
+      <img
+        className="header-image"
+        src="/cocktail_recipes.jpeg"
+        alt="Cheers!"
+      />
+    </header>
+  );
 }

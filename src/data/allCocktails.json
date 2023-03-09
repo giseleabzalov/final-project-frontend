@@ -5,7 +5,7 @@
     "container": "pitcher",
     "ingredients": "white wine, peach pure and brandy or peach schnapps, orange juice or triple sec, seltzer or sprite, peach, orange, apple, green grapes",
     "instructions": "cut fruits to small pieces, add ingredients to the pitcher with ice depending on the strength or sweetness of your liking, stir thoroughly",
-    "image": "image1"
+    "image": "https://cheers-frontend-ga.web.app/images/peach_sangria_pitcher.png"
   },
   {
     "occasion": "party",
@@ -13,7 +13,7 @@
     "container": "pitcher",
     "ingredients": "lemon rum, triple sec, lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
     "instructions": "crush mint, lime wedges, strawberries and sugar if using seltzer, add ice, 1 oz of lime juice, rum and top off with soda, stir the ingredients",
-    "image": "image2"
+    "image": "https://cheers-frontend-ga.web.app/images/strawberry_mojito.jpg"
   },
   {
     "occasion": "party",
@@ -21,47 +21,16 @@
     "container": "pitcher",
     "ingredients": "prosecco, rum, lemonade, blackberries, lemon",
     "instructions": "in a pitcher with ice combine all liquid ingredients in equal proportions, add a lot of blackberries and few pieces of lemon",
-    "image": "image3"
+    "image": "https://cheers-frontend-ga.web.app/images/blackberry_lime.png"
   },
-  {
-    "occasion": "party",
-    "name": "Rosemary Gin Fizz",
-    "container": "pitcher",
-    "ingredients": "gin, lemon juice, lime juice, rosemary sprigs, seltzer, sugar",
-    "instructions": "combine 1/3 of gin, 1/3 of seltzer and 1/3 of mix of lemon and lime juice, add sugar and rosemary sprigs, stir thoroughly",
-    "image": "image4"
-  },
-  {
-    "occasion": "party",
-    "name": "Raspberry Lemonade",
-    "container": "pitcher",
-    "ingredients": "vodka, lemonade, raspberry lemonade, raspberries, lemon",
-    "instructions": "in a pitcher with ice add an equal parts of liquid ingredients, add raspberries and lemon slices",
-    "image": "image5"
-  },
-  {
-    "occasion": "party",
-    "name": "Grapefruit Bourbon",
-    "container": "pitcher",
-    "ingredients": "bourbon, triple sec, grapefruit juice, grapefruit,basil",
-    "instructions": "in a pitcher with ice add 1/3 of bourbon, 1/3 of grapefruit juice, 1/4 of triple sec, grapefruit slices and basil (optional for pop of color",
-    "image": "image6"
-  },
-  {
-    "occasion": "party",
-    "name": "Margarita",
-    "container": "pitcher",
-    "ingredients": "tequila, triple sec, lime juice, seltzer, limes, salt in the saucer (optional)",
-    "instructions": "in the pitcher with ice add 1/3 tequila, 1/4 triple sec, 1 oz of lime juice, top off with seltzer, add lime slices",
-    "image": "image7"
-  },
+
   {
     "occasion": "party",
     "name": "Pomegranate Sangria",
     "container": "pitcher",
     "ingredients": "red dry wine, brandy, pomegranate juice, orange juice, seltzer, orange, pear, pomegranate seeds, ",
     "instructions": "pour ingredients in the pitcher over ice, add fruits ans stir",
-    "image": "image8"
+    "image": "https://cheers-frontend-ga.web.app/images/pomegranate_sangria.png"
   },
   {
     "occasion": "mocktails",
@@ -69,7 +38,7 @@
     "container": "poco grande",
     "ingredients": "pineapple juice, coconut milk, seltzer, pineapple",
     "instructions": "blend ingredients with ice, garnish with pineapple",
-    "image": "image1"
+    "image": "https://cheers-frontend-ga.web.app/images/pina_colada.png"
   },
   {
     "occasion": "mocktails",
@@ -77,7 +46,7 @@
     "container": "pitcher",
     "ingredients": "peach pure, orange juice, pineapple juice, seltzer, peach, orange, apple, green grapes",
     "instructions": "add ingredients to the pitcher over ice depending on the sweetness of your liking, stir",
-    "image": "image2"
+    "image": "https://cheers-frontend-ga.web.app/images/peach_sangria_pitcher.png"
   },
   {
     "occasion": "mocktails",
@@ -85,7 +54,7 @@
     "container": "pitcher",
     "ingredients": "lemon or lime juice, mint, lime, strawberries, sprite or seltzer and sugar",
     "instructions": "crush mint, lime wedges, strawberries and sugar if using seltzer, add ice, 1 oz of lime or lemon juice, top off with soda and stir thoroughly",
-    "image": "image3"
+    "image": "https://cheers-frontend-ga.web.app/images/strawberry_mojito.jpg"
   },
   {
     "occasion": "mocktails",
@@ -93,39 +62,7 @@
     "container": "pitcher",
     "ingredients": "pomegranate juice, orange juice, seltzer, oranges, pomegranate seeds, pears",
     "instructions": "pour ingredients in the pitcher overs ice, add fruits and stir",
-    "image": "image4"
-  },
-  {
-    "occasion": "mocktails",
-    "name": "Berry Iced Tea",
-    "container": "pitcher",
-    "ingredients": "iced tea, strawberry and raspberry lemonade, berry mix (can be fresh or frozen), lemon",
-    "instructions": "pour ingredients in the pitcher overs ice, add berries, lemon slices and stir",
-    "image": "image5"
-  },
-  {
-    "occasion": "mocktails",
-    "name": "Youth Cocktail",
-    "container": "pitcher",
-    "ingredients": "soda, cucumber, mint, lemon",
-    "instructions": "pour soda in the pitcher over ice, add mint, slices of cucumbers, lemon and stir",
-    "image": "image6"
-  },
-  {
-    "occasion": "mocktails",
-    "name": "Citrus Fiesta",
-    "container": "pitcher",
-    "ingredients": "orange juice, grapefruit juice, seltzer, orange, tangerine",
-    "instructions": "pour juices in the pitcher over ice, add seltzer, slices og orange and tangerine wedges",
-    "image": "image7"
-  },
-  {
-    "occasion": "mocktails",
-    "name": "Tropical Paradise",
-    "container": "pitcher",
-    "ingredients": "pineapple juice, mango juice, seltzer, mango, pineapple, strawberry",
-    "instructions": "pour juices in the pitcher over ice, add seltzer, fruits and strawberries for a color",
-    "image": "image8"
+    "image": "https://cheers-frontend-ga.web.app/images/pomegranate_sangria.png"
   },
   {
     "occasion": "date_night",
@@ -133,7 +70,7 @@
     "container": "martini",
     "ingredients": "lemon rum, pineapple juice, grenadine",
     "instructions": "in the glass combine 1/3 of rum, add 1/3 of pineapple juice, transfer to the shaker with ice, strain back to the glass, add a splash of grenadine to the bottom",
-    "image": "image1"
+    "image": "https://cheers-frontend-ga.web.app/images/sunset.png"
   },
   {
     "occasion": "date_night",
@@ -141,15 +78,7 @@
     "container": "martini",
     "ingredients": "chocolate vodka or vodka and godiva, kahlua, espresso, baileys",
     "instructions": "in a shaker with ice add a splash of each ingredient, shake well, garnish with shaved chocolate or espresso beans or both",
-    "image": "image2"
-  },
-  {
-    "occasion": "date_night",
-    "name": "Lychee Martini",
-    "container": "martini",
-    "ingredients": "lychee juice, vodka, lychee",
-    "instructions": "in the glass combine 1/3 of vodka and 1/3 of lychee juice, transfer to shaker with ice, stir back to the glass, add lychee",
-    "image": "image3"
+    "image": "https://cheers-frontend-ga.web.app/images/cappuccino.png"
   },
   {
     "occasion": "date_night",
@@ -157,31 +86,7 @@
     "container": "martini",
     "ingredients": "vodka, chambord, raspberry lemonade",
     "instructions": "in the glass combine 1/4 of vodka, 1/4 of chambord and 1/4 of raspberry lemonade, transfer to shaker with ice, stir back to the glass, add raspberry",
-    "image": "image4"
-  },
-  {
-    "occasion": "date_night",
-    "name": "Strawberry Crush",
-    "container": "tall",
-    "ingredients": "strawberry vodka, lemonade, strawberry, basil",
-    "instructions": "crush 2 strawberries in a glass, add 3 basil leaves, 1/3 strawberry vodka and 1/3 lemonade, stir, and add ice.",
-    "image": "image5"
-  },
-  {
-    "occasion": "date_night",
-    "name": "Spicy Margarita",
-    "container": "margarita",
-    "ingredients": "tequila, triple sec, lime juice, lime, jalapeno",
-    "instructions": "in the glass combine 1/3 of tequila, 1/4 of triple sec and splash of lime juice, transfer to shaker with ice, stir back to the glass, add jalapeno and lime wedge",
-    "image": "image6"
-  },
-  {
-    "occasion": "date_night",
-    "name": "Passion Daiquiry",
-    "container": "poco grande",
-    "ingredients": "rum, triple sec, lime juice, passion fruit puree or juice",
-    "instructions": "in the glass with ice combine 1/3 of rum, 1/4 of triple sec, 1/4 of passion fruit juice os tablespoon of puree, splash of lime juice and stir, or blend in blender",
-    "image": "image7"
+    "image": "https://cheers-frontend-ga.web.app/images/raspberry_kiss.png"
   },
   {
     "occasion": "date_night",
@@ -189,39 +94,16 @@
     "container": "wine",
     "ingredients": "gin, elderflower liquor, lime juice, rose champagne",
     "instructions": "in the glass with ice combine 1/4 of gin, 1/4 of elderflower liquor, splash of lime juice, stir, top off with rose champagne",
-    "image": "image8"
+    "image": "https://cheers-frontend-ga.web.app/images/love_potion.png"
   },
-  {
-    "occasion": "brunch",
-    "name": "Mimosa",
-    "container": "flute",
-    "ingredients": "champagne, orange juice",
-    "instructions": "pour champagne in 2/3 of the flute, add a splash of orange juice, garnish with orange and mint",
-    "image": "image1"
-  },
+
   {
     "occasion": "brunch",
     "name": "Chambord Royale",
     "container": "flute",
     "ingredients": "champagne, chambord",
     "instructions": "pour champagne in 2/3 of the flute, add a splash of chambord, garnish with raspberry and basil",
-    "image": "image2"
-  },
-  {
-    "occasion": "brunch",
-    "name": "Bellini",
-    "container": "flute",
-    "ingredients": "champagne, peach juice",
-    "instructions": "pour champagne in 2/3 of the flute, add a splash of peach juice, garnish with slice of peach",
-    "image": "image3"
-  },
-  {
-    "occasion": "brunch",
-    "name": "Irish Coffee",
-    "container": "irish coffee mug",
-    "ingredients": "irish whiskey, coffee, whipped cream",
-    "instructions": "in a mug pour coffee, add a splash of whiskey, and top off with whipped cream",
-    "image": "image4"
+    "image": "https://cheers-frontend-ga.web.app/images/chambord_royale.png"
   },
   {
     "occasion": "brunch",
@@ -229,7 +111,7 @@
     "container": "tall",
     "ingredients": "vodka, tomato juice, salt, black pepper, worcestershire sauce, red pepper sauce, lemon juice",
     "instructions": "in the glass with ice combine 1/3 of vodka, 1/3 of tomato juice, add splash of lemon juice, dash of sauces, salt and pepper, garnish, with celery stick",
-    "image": "image5"
+    "image": "https://cheers-frontend-ga.web.app/images/bloody_mary.png"
   },
   {
     "occasion": "brunch",
@@ -237,15 +119,7 @@
     "container": "wine",
     "ingredients": "champagne, elderflower liquor, soda",
     "instructions": "in a glass with ice combine 1/3 of each ingredients, stir, garnish with lemon twist",
-    "image": "image6"
-  },
-  {
-    "occasion": "brunch",
-    "name": "Aperole Spritz",
-    "container": "wine",
-    "ingredients": "champagne, aperole, soda",
-    "instructions": "in a glass with ice combine 1/3 of each ingredients, stir, garnish with orange twist",
-    "image": "image7"
+    "image": "https://cheers-frontend-ga.web.app/images/st_germain_spritz.png"
   },
   {
     "occasion": "brunch",
@@ -253,6 +127,6 @@
     "container": "irish coffee mug",
     "ingredients": "coffee, irish cream, ice cream",
     "instructions": "in a mug add coffee, splash of baileys and 1 small scoop of vanilla ice cream",
-    "image": "image8"
+    "image": "https://cheers-frontend-ga.web.app/images/affogato.png"
   }
 ]

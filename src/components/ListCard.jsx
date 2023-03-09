@@ -16,25 +16,25 @@ export default function ListCard({ occasion }) {
   //     .catch(console.error);
   // };
   return (
-    <main>
-      <div className="occasion-card"></div>
+    // <main>
+    //   <div className="occasion-card"></div>
 
-      <Col xs={1} md={2}>
-        <Card border="danger" style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="../public/affogato.png" />
-          <Card.Body>
-            <Card.Title>
-              <h3>{occasion.name}</h3>
-            </Card.Title>
-            <Card.Text>
-              <p>{occasion.ingredients}</p>
-              <p>{occasion.container}</p>
-              <p>{occasion.instructions}</p>
-              {/* <Button onPress={handleDelete} /> */}
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </Col>
-    </main>
+    <Col sm={12} md={6} lg={3}>
+      <Card border="dark" style={{ width: "100%" }}>
+        <Card.Img variant="top" src={occasion.image} />
+        <Card.Body>
+          <Card.Title>
+            <h3>{occasion.name}</h3>
+          </Card.Title>
+          <Card.Text>
+            <p>{occasion.ingredients}</p>
+            <p>{occasion.container}</p>
+            <p>{occasion.instructions}</p>
+            {/* <Button onPress={handleDelete} /> */}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+    // </main>
   );
 }
