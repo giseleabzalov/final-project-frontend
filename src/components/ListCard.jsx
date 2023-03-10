@@ -25,12 +25,12 @@ export default function ListCard({ occasion }) {
       <Card border="dark" style={{ width: "100%" }}>
         <Card.Img variant="top" src={occasion.image} />
         <Card.Body className="card-body">
-          <Accordion>
-            <Accordion.Item eventKey="0">
+          <Accordion className="accordion">
+            <Accordion.Item className="accordion-item" eventKey="0">
               <Accordion.Header className="header">
                 <h2>{occasion.name}</h2>
               </Accordion.Header>
-              <Accordion.Body>
+              <Accordion.Body className="accordion-body">
                 <Card.Text>
                   <h3>ingredients: </h3>
                   <p>{occasion.ingredients}</p>

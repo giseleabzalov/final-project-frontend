@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import "../styles/form.css";
 
 export default function AddCocktail() {
   const [name, setName] = useState("");
@@ -36,24 +37,26 @@ export default function AddCocktail() {
   };
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <Form className="form" onSubmit={handleSubmit}>
       <Form.Group className="mb-3" controlId="category">
         <Form.Label>Occasion</Form.Label>
         <Form.Select
+          className="form-select"
           aria-label=""
           value={occasion}
           onChange={(e) => setOccasion(e.target.value)}
         >
-          <option>Choose Category</option>
-          <option value="brunch">Brunch</option>
+          <option className="choose-category">Choose Category</option>
           <option value="date_night">Date Night</option>
-          <option value="mocktails">Mocktails</option>
           <option value="party">Party</option>
+          <option value="brunch">Brunch</option>
+          <option value="mocktails">Mocktails</option>
         </Form.Select>
       </Form.Group>
       <Form.Group className="mb-3" controlId="name">
         <Form.Label>Name</Form.Label>
         <Form.Control
+          className="form-control"
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -85,7 +88,11 @@ export default function AddCocktail() {
       </Form.Group>
       <Form.Group controlId="formFile" className="mb-3">
         <Form.Label>Upload Image</Form.Label>
-        <Form.Control type="file" />
+        <Form.Control
+          type="file"
+          value={image}
+          onChange={(e) => setImage(e.target.value)}
+        />
       </Form.Group>
 
       <Button variant="primary" type="submit">

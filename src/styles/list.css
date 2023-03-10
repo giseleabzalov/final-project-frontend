@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url("../components/background_images/background.jpg");
+    background-image: url("./background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -57,4 +57,5 @@ body {
   .background{
     overflow: hidden;
     scroll-behavior: auto;
+    margin-bottom: 20%;
   }
