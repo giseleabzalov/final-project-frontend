@@ -89,7 +89,7 @@ export default function AddCocktail() {
       <Form.Group controlId="formFile" className="mb-3">
         <Form.Label>Upload Image</Form.Label>
         <Form.Control
-          type="file"
+          type="text"
           value={image}
           onChange={(e) => setImage(e.target.value)}
         />

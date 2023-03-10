@@ -41,8 +41,6 @@ body {
     transition: transform 0.23s ease-in-out;
 }
 
-
-
 .button-effect {
     display: block;
     transform: scale(1.0);
@@ -57,5 +55,5 @@ body {
   .background{
     overflow: hidden;
     scroll-behavior: auto;
-    margin-bottom: 20%;
+    margin-bottom: 3%;
   }

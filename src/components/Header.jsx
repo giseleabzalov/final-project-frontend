@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header">
       <img
         className="header-image"
-        src="/cocktail_recipes.jpeg"
+        src="/cocktail_recipes_banner.jpg"
         alt="Cheers!"
       />
     </header>

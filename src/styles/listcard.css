@@ -8,13 +8,13 @@ h3 {
 }
 .card-body {
     background-color: bisque;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
 }
 .cocktail-name {
     background-color: bisque;
 }
 .accordion-body {
     background-color: bisque;
-}
-.accordion-item {
-    background-color: red;
 }
