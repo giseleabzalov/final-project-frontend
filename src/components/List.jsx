@@ -8,17 +8,10 @@ import AddCocktail from "./Form";
 import Header from "./Header";
 import "../styles/list.css";
 
-// const backgrounds = {
-//   date_night: "black",
-//   party: "blue",
-//   brunch: "orange",
-//   mocktails: "green",
-//   form: "pink",
-// };
-
 export default function List() {
   const [data, setData] = useState();
   const [occasion, setOccasion] = useState("date_night");
+  const [toggleUpdate, setToggleUpdate] = useState(false);
 
   useEffect(() => {
     if (occasion !== "form") {
@@ -28,10 +21,8 @@ export default function List() {
         .then(setData)
         .catch(alert);
     }
-  }, [occasion]);
+  }, [occasion, toggleUpdate]);
 
-  // console.log({ occasion });
-  // console.log(!data);
   return (
     <>
       <Navbar className="nav-bar">
@@ -55,7 +46,7 @@ export default function List() {
 
       <section>
         {occasion === "form" ? (
-          <AddCocktail />
+          <AddCocktail changeOccasion={setOccasion} />
         ) : (
           <Container fluid className="background">
             <Row className="card-container">
@@ -63,7 +54,12 @@ export default function List() {
                 <h2>Loading...</h2>
               ) : (
                 data.map((cocktail) => (
-                  <ListCard key={cocktail._id} occasion={cocktail} />
+                  <ListCard
+                    key={cocktail._id}
+                    cocktail={cocktail}
+                    toggleUpdate={toggleUpdate}
+                    setToggleUpdate={setToggleUpdate}
+                  />
                 ))
               )}
             </Row>

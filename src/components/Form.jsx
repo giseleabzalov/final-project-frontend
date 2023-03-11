@@ -3,7 +3,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import "../styles/form.css";
 
-export default function AddCocktail() {
+export default function AddCocktail({ changeOccasion }) {
   const [name, setName] = useState("");
   const [container, setContainer] = useState("");
   const [ingredients, setIngredients] = useState("");
@@ -32,7 +32,7 @@ export default function AddCocktail() {
       }),
     })
       .then((res) => res.json())
-      .then(setOccasion)
+      .then(() => changeOccasion(occasion))
       .catch(alert);
   };
 
