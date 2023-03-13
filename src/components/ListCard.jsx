@@ -2,6 +2,7 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { Button } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/listcard.css";
 
 export default function ListCard({ cocktail, toggleUpdate, setToggleUpdate }) {
@@ -23,7 +24,7 @@ export default function ListCard({ cocktail, toggleUpdate, setToggleUpdate }) {
     //   <div className="cocktail-card"></div>
 
     <Col sm={12} md={6} lg={3}>
-      <Card border="dark" style={{ width: "100%" }}>
+      <Card className="card-border">
         <Card.Img variant="top" src={cocktail.image} />
         <Card.Body className="card-body">
           <Accordion className="accordion">
@@ -39,8 +40,12 @@ export default function ListCard({ cocktail, toggleUpdate, setToggleUpdate }) {
                   <p>{cocktail.container}</p>
                   <h3>instructions:</h3>
                   <p>{cocktail.instructions}</p>
-                  <Button className="delete-button" onClick={handleDelete}>
-                    Delete
+                  <Button
+                    className="delete-button"
+                    onClick={handleDelete}
+                    // style="bg-light"
+                  >
+                    <img src="../../trash-icon.webp" />
                   </Button>
                 </Card.Text>
               </Accordion.Body>
