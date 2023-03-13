@@ -34,17 +34,13 @@ export default function ListCard({ cocktail, toggleUpdate, setToggleUpdate }) {
               </Accordion.Header>
               <Accordion.Body className="accordion-body">
                 <Card.Text>
-                  <h3>ingredients: </h3>
+                  <h3>Ingredients: </h3>
                   <p>{cocktail.ingredients}</p>
-                  <h3>container: </h3>
+                  <h3>Container: </h3>
                   <p>{cocktail.container}</p>
-                  <h3>instructions:</h3>
+                  <h3>Instructions:</h3>
                   <p>{cocktail.instructions}</p>
-                  <Button
-                    className="delete-button"
-                    onClick={handleDelete}
-                    // style="bg-light"
-                  >
+                  <Button className="delete-button" onClick={handleDelete}>
                     <img src="../../trash-icon.webp" />
                   </Button>
                 </Card.Text>
